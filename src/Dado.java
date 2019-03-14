@@ -14,7 +14,7 @@ public class Dado {
 
 	public ArrayList<Integer> dado(int qtd_Dados, char opcao) {
 		switch (opcao) {
-		case 'Y': // Com letra OU SIMBOLOS DO DEMONIO
+		case 'Y': // Com letra
 			for (int i = 0; i < qtd_Dados; i++) {
 				System.out.print("Quantidade de lados do dado: ");
 				int lados = ler.nextInt();
